@@ -1,0 +1,8 @@
+name: GetUuidPlugin
+main: org.blog.uuid.GetUuidPlugin
+version: 1.0.0
+api-version: 1.20
+commands:
+  get_uuid:
+    description: 닉네임으로 UUID를 조회합니다.
+    usage: /get_uuid <닉네임>
